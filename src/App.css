@@ -1,5 +1,7 @@
-.App {
-  text-align: center;
+.App {display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +37,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+.conatiner{
+  display: flex;
+  justify-content: space-around;
+}
+#navbar{
+  width: 100%;
+}
+.intro{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
